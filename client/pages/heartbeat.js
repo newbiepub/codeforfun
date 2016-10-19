@@ -74,7 +74,7 @@ function heartbeat() {
 
     $('body').append("  <style id=\"style-tag\"></style>\n<span id=\"echo\"></span>\n<span id=\"heart\"><i></i></span>\n<pre id=\"style-text\"></pre>");
 
-    time = window.innerWidth <= 578 ? 1 : 1;
+    time = window.innerWidth <= 578 ? 35 : 35;
 
     writeStyles(styles, 0, time);
 
