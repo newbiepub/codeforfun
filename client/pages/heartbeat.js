@@ -67,8 +67,10 @@ function heartbeat() {
                 return writeStyles(message, index, interval);
             }), interval);
         } else {
-            $('body').empty();
-            window.location.assign(Meteor.absoluteUrl('myheart'));
+            Meteor.setTimeout(function () {
+                window.location.assign(Meteor.absoluteUrl('myheart'));
+            }, 2000)
+
         }
     };
 
