@@ -25,7 +25,7 @@ Template.home.onRendered(function () {
 
     MESSAGES.push({
         delay: 5200,
-        text: "Do you feel it now ?"
+        text: "Hope you like it !!!"
     });
 
     $container = $("#container");

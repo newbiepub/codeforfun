@@ -1,7 +1,7 @@
 Template.myheart.onRendered(function () {
     $("body").css("width", "0");
     Meteor.setTimeout(function () {
-        $("#main-heart").html('<span>My</span> <span class="heart">Heart</span> <span>Beat</span>');
+        $("#main-heart").html('<span>My</span> <span class="heart">Love</span> <span>Just</span>');
         var heartuptimer = setInterval(heartup, 200);
         function heartup() {
             $(".heart").css("font-weight", "900");
